@@ -1,0 +1,763 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* header css */
+
+.header {
+  width: 100%;
+  background: #fff;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  color: #1f4f87;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0px 0px -6px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #f2642c;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus {
+  color: #f2642c;
+}
+
+.header .navbar {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+/* banner css */
+
+.banner {
+  width: 100%;
+  padding: 120px 0px 40px;
+  background: url("../img/slider.png") center top no-repeat;
+  background-size: cover;
+}
+
+.banner .inner-banner h1 {
+  font-size: 52px;
+  line-height: 62px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner .inner-banner .arrow {
+  width: 100%;
+  padding: 150px 0px 0px 0px;
+  text-align: center;
+}
+
+.arrow i {
+  font-size: 35px;
+  color: #fff;
+}
+
+/* about-us css */
+.about-us {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.about-inner {
+  width: 100%;
+  margin: 40px 0px 0px;
+  align-items: center;
+}
+
+.about-us .tittle {
+  width: 100%;
+}
+.about-us .tittle .divider {
+  width: 68px;
+  height: 3px;
+  background: #f2642c;
+  margin: 0px 0px 15px;
+}
+
+.about-us .tittle h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1f4f87;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+}
+
+.about-us .tittle p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #b0b0b1;
+  margin: 0px 0px 25px;
+  padding: 0px 81px 0px 0px;
+}
+
+.about-img {
+  text-align: center;
+}
+
+.about-us .img-fluid {
+  width: 100%;
+}
+
+/* what-do css */
+
+.what-do {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../img/do-bg.png") center top no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.what-do .tittle {
+  width: 100%;
+}
+
+.what-do .tittle .divider {
+  width: 68px;
+  height: 3px;
+  background: #f2642c;
+  margin: 0px auto 15px;
+}
+
+.what-do .tittle h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1f4f87;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+.what-do .inner-do {
+  position: relative;
+  width: 100%;
+}
+
+.what-do .inner-do .img-fluid {
+  width: 100%;
+  margin: 60px 0px 0px;
+}
+
+.inner-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  text-align: center;
+}
+
+.inner-content h5 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.long-arrow {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  transform: translate(0%, 0%);
+}
+
+/* OUR-ATTORNEYS css */
+.our-attorneys {
+  width: 100%;
+  padding: 110px 0px 80px 0px;
+  background: url("../img/atorneys-bg.png") center top no-repeat;
+  background-size: cover;
+}
+
+.our-attorneys .about-inner {
+  width: 100%;
+  margin: 40px 0px 0px;
+  align-items: center;
+}
+
+.our-attorneys .tittle {
+  width: 100%;
+}
+.our-attorneys .tittle .divider {
+  width: 68px;
+  height: 3px;
+  background: #f2642c;
+  margin: 0px 0px 15px;
+}
+
+.our-attorneys .tittle h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+}
+
+.our-attorneys .tittle p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #b0b0b1;
+  margin: 0px 0px 25px;
+  padding: 0px 81px 0px 0px;
+}
+
+.our-attorneys .about-inner a {
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #f2642c;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.our-attorneys .about-inner a:hover {
+  color: #fff;
+}
+
+.inner-our-attorneys-left {
+  margin: 152px 0px 0px 0px;
+}
+
+.inner-our-content {
+  position: relative;
+  margin: 0px 0px 30px 0px;
+}
+.inner-our-content h3 {
+  position: absolute;
+  bottom: 12%;
+  width: 73%;
+  padding: 0px 0px 0px 81px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* language css */
+.language {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.language .tittle {
+  width: 100%;
+}
+
+.language .tittle .divider {
+  width: 68px;
+  height: 3px;
+  background: #f2642c;
+  margin: 0px auto 15px;
+}
+
+.language .tittle h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1f4f87;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+.inner-language {
+  width: 100%;
+  padding: 40px 0px 0px 0px;
+}
+.inner-language h4 {
+  color: #1f4f87;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.inner-language p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #b0b0b1;
+  margin: 0px 0px 25px;
+  padding: 0px 14px 0px 0px;
+}
+
+.language .inner-language a {
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #f2642c;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.language .inner-language a:hover {
+  color: #1f4f87;
+}
+
+/* contact-us css */
+
+.contact-us {
+  width: 100%;
+  padding: 80px 0px;
+  background: #28377e;
+}
+
+.contact-us .tittle {
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+}
+
+.contact-us .tittle .divider {
+  width: 68px;
+  height: 3px;
+  background: #f2642c;
+  margin: 0px auto 15px;
+}
+
+.contact-us .tittle h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+.inner-form input {
+  display: block;
+  background: transparent;
+  margin: 0px auto 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  width: 40%;
+  color: #fff;
+  border-bottom: 1px solid #4759a7;
+  height: 50px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.msg-control {
+  margin: 0px 0px 20px 0px;
+}
+
+.inner-form .btn-info {
+  display: block;
+  width: 188px;
+  text-align: center;
+  margin: 30px auto 0px !important;
+  border-radius: 1px;
+  border: 1px solid #f2642c;
+  background: #f2642c;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.inner-form .btn-info:hover {
+  background: transparent;
+  border: 1px solid #f2642c;
+  color: #fff;
+}
+.inner-form .btn-info:focus {
+  background: transparent;
+  border: 1px solid #f2642c;
+  color: #fff;
+}
+
+/* footer css */
+
+.footer {
+  width: 100%;
+  padding: 30px 0px;
+  background: #0c1234;
+}
+
+.footer p {
+  color: #616ca8;
+  margin: 0px;
+}
+.footer span {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: 1s;
+  margin: 0px;
+}
+
+.footer span:hover {
+  color: #1f4f87;
+}
+.footer span:focus {
+  color: #1f4f87;
+}
+
+.icon {
+  width: 100%;
+}
+
+.icon ul {
+  text-align: right;
+}
+
+.icon ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.icon ul li a {
+  font-size: 16px;
+  color: #b1b7dd;
+  transition: 1s;
+}
+
+.icon ul li a:hover {
+  color: #1f4f87;
+}
+.icon ul li a:focus {
+  color: #1f4f87;
+}
+
+/***************** **responsive css** ******************/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS START */
+
+  .what-do .inner-do {
+    position: relative;
+    width: 63%;
+    margin: 0px auto;
+  }
+
+  .our-attorneys .tittle {
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .inner-language {
+    width: 50%;
+    padding: 40px 0px 20px 0px;
+  }
+
+  .inner-language h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .inner-form input {
+    width: 85%;
+  }
+
+  .inner-form .btn-info {
+    font-size: 14px;
+  }
+
+  .about-img {
+    text-align: start;
+  }
+
+  .about-us .img-fluid {
+    width: 70%;
+  }
+
+  .icon {
+    width: 100%;
+    margin: -25px 0px 0px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS START */
+
+  .banner .inner-banner h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .inner-our-attorneys-left {
+    margin: 152px 0px 40px 0px;
+  }
+
+  .inner-language {
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .inner-form input {
+    width: 100%;
+  }
+
+  .footer p {
+    color: #616ca8;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .icon {
+    width: 72%;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS START */
+
+  .banner {
+    width: 100%;
+    padding: 120px 0px 40px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about-us .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 20px;
+  }
+
+  .about-us .tittle .divider {
+    width: 68px;
+    height: 3px;
+    background: #f2642c;
+    margin: 0px auto 15px;
+  }
+
+  .about-us .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 12px 20px;
+  }
+
+  .about-us .tittle p {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .what-do .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .our-attorneys .tittle {
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .our-attorneys .tittle h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+  }
+
+  .language .tittle h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .inner-language {
+    width: 100%;
+    padding: 65px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .inner-form input {
+    width: 83%;
+  }
+
+  .inner-form .btn-info {
+    width: 126px;
+    font-size: 14px;
+  }
+
+  .footer p {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .icon {
+    width: 86%;
+  }
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS START */
+
+  .banner {
+    width: 100%;
+    padding: 120px 0px 40px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about-us .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 20px;
+  }
+
+  .about-us .tittle .divider {
+    width: 68px;
+    height: 3px;
+    background: #f2642c;
+    margin: 0px auto 15px;
+  }
+
+  .about-us .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 12px 20px;
+  }
+
+  .about-us .tittle p {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .what-do .tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .our-attorneys .tittle {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .our-attorneys .tittle h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+  }
+
+  .language .tittle h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .inner-language {
+    width: 100%;
+    padding: 65px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .inner-form input {
+    width: 83%;
+  }
+
+  .inner-form .btn-info {
+    width: 126px;
+    font-size: 14px;
+  }
+
+  .footer p {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .icon {
+    width: 90%;
+  }
+
+  /* CSS END */
+}
